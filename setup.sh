@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -R $PWD/.vim $HOME/.vim
+cp -R $PWD/.vim $HOME
 
 if [ -f $HOME/.vimrc ]; then
 	rm $HOME/.vimrc
